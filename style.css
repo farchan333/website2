@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.nama{
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 5px solid darkolivegreen;
+}
+.nama:hover{
+    text-shadow: darkolivegreen 1px 1px 6px, whitesmoke 1px 1px 4px;
+    box-shadow: darkolivegreen 0px 1px 6px, whitesmoke 1px 1px 4px;
+    border-bottom-color: whitesmoke;
+    transition: .44s;
+}
+.kiri{
+    margin: 30px;
+    padding: 20px;
+    width: 30%;
+    height: 90%;
+    background-color: darkslategrey;
+    border-radius: 50px;
+    box-shadow: whitesmoke 2px 2px 43px,darkolivegreen 2px 2px 43px;
+    float: left;
+    box-sizing: border-box;
+    position: fixed;
+}
+.kiri:hover{
+    border-bottom: 9mm ridge rgba(211,220,50, .65);
+    border-left: 4mm ridge rgba(211,220,50, .65);
+    border-right: 4mm ridge rgba(211,220,50, .65);
+    border-top: 4mm ridge rgba(211,220,50, .65);
+    transition: 1s;
+}
+
+.kiriTengah{
+    text-align: center;
+}
+.kiriTengah h1{
+    display: block;
+    color: whitesmoke;
+}
+.kiri a img{
+    display: inline;
+    width: 50px;
+}
+.kiri .foto{
+    width: 50%;
+    margin: 0 25% 0;
+    border-radius: 50%;
+    border:5px solid darkolivegreen;
+}
+.foto:hover{
+    box-shadow: whitesmoke 2px 2px 24px;
+    border-color: darkslategrey;
+    transition: 1s;
+}
+.text{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+caption:hover{
+    text-shadow: whitesmoke 2px 2px 42px;
+    transition: .77s;
+    border-radius: 20px;
+    border-color: darkslategrey;
+}
+.wa:hover{
+    box-shadow: green 1px 1px 24px;
+    border-radius: 20px;
+    transition: .44s;
+}
+.fb:hover{
+    box-shadow: blue 1px 1px 24px;
+    border-radius: 20px;
+    transition: .44s;
+}
+table{
+    box-shadow: black 6px 6px 43px;
+    border-radius: 20px;
+}
+
+.kanan{
+    position: absolute;
+    margin: 40px 0 0px 35%;
+    width: 60%;
+    height: 300%;
+    background-color: whitesmoke;
+    border-radius: 40px;
+}
+ul{
+    margin-top: -1px;
+    height: 65px;
+    width: auto;
+    background-color: green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.judul-web{
+    font: bold 30px "Arial Rounded MT Bold";
+    color: white;
+    display: inline-block;
+    float: left;
+}
+.kanan li{
+    display: inline-block;
+    padding-top: 20px;
+}
+ul:hover{
+    border-top-right-radius: 20px;
+ }
+
+.menu-bar a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font: bold 22px Serif;
+}
+.menu-bar a:hover{
+    background-color: yellow;
+    color: green;
+    box-sizing: border-box;
+    border: 2px solid green;
+    transition: .34s;
+}
+.menu-akhir:hover{
+    border-top-right-radius: 20px ;
+
+}

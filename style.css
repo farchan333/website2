@@ -1,6 +1,6 @@
 
 body{
-    margin: 0;
+    margin: 40px;
     background-color: white;
 }
 
@@ -16,10 +16,11 @@ body{
     transition: .44s;
 }
 .kiri{
-    margin: 30px;
-    padding: 20px;
-    width: 30%;
-    height: 630px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0%;
+    padding-bottom: 30px;
+    width: 400px;
     background-color: darkslategrey;
     border-radius: 50px;
     box-shadow: whitesmoke 2px 2px 43px,darkolivegreen 2px 2px 43px;
@@ -87,20 +88,22 @@ table{
 }
 
 .kanan{
-    position: absolute;
-    margin: 40px 0 0px 35%;
-    width: 60%;
+
+    position: static;
+    margin-left: 550px;
+    margin-right: 10%;
+    width: 58%;
     height: 300%;
     background-color: whitesmoke;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 ul{
     margin-top: -1px;
     height: 65px;
     width: auto;
     background-color: green;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .judul-web{
     font: bold 30px "Arial Rounded MT Bold";
@@ -113,8 +116,10 @@ ul{
     padding-top: 20px;
 }
 ul:hover{
-    border-top-right-radius: 20px;
- }
+    border-top-right-radius: 50px;
+    overflow: hidden;
+
+}
 
 .menu-bar a{
     padding: 20px;
@@ -130,6 +135,5 @@ ul:hover{
     transition: .34s;
 }
 .menu-akhir:hover{
-    border-top-right-radius: 20px ;
-
+    border-top-right-radius: 50px ;
 }

@@ -90,10 +90,7 @@ table{
 .kanan{
 
     position: static;
-    margin-left: 550px;
-    margin-right: 10%;
-    width: 58%;
-    height: 300%;
+    margin-left: 450px;
     background-color: whitesmoke;
     border-radius: 50px;
 }
